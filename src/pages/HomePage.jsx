@@ -5,7 +5,7 @@ import ProfileSection from '../components/ProfileSection';
 import QuickLinks from '../components/QuickLinks';
 import StudentCorner from '../components/StudentCorner';
 import Leaderboard from '../components/Leaderboard';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
@@ -16,7 +16,7 @@ export default function HomePage() {
       <QuickLinks />
       <StudentCorner />
       <Leaderboard />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
